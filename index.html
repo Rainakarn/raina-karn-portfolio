@@ -1755,7 +1755,7 @@
 
         function viewResume() {
             // In a real implementation, this would open the PDF in a new tab
-            window.open('/Raina_Karn_Resume_EY.PDF', '_blank');
+            window.open('Raina_Karn_Resume_EY.PDF', '_blank');
             // For demo:
             alert('Full resume would open in a new tab. Replace with your actual PDF URL.');
         }
@@ -1764,7 +1764,7 @@
             // Create a temporary link for download
             const link = document.createElement('a');
             // Replace with your actual resume file path
-            link.href = '/Raina_Karn_Resume_EY.PDF';
+            link.href = 'Raina_Karn_Resume_EY.PDF';
             link.download = 'Raina_Karn_Resume.pdf';
             document.body.appendChild(link);
             link.click();
